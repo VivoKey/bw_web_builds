@@ -42,7 +42,7 @@ OUTPUT_MSG=$OUTPUT_NAME.text
 
 # If this is the first time, clone the project
 if [ ! -d $VAULT_FOLDER ]; then
-    git clone https://github.com/bitwarden/web.git $VAULT_FOLDER
+    git clone https://github.com/VivoKey/bw-web.git $VAULT_FOLDER
     mkdir OUTPUT_FOLDER
 fi
 
